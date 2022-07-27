@@ -6,40 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-learning</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <section class="container">
         <!---------- Navbar Start --------->
-        <nav class="navbar navbar-expand-lg navbar-light py-3">
-            <div class="container-fluid">
-              <a class="navbar-brand h1" href="#">E-learning</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-    
-                <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                      <li class="nav-item px-3">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item px-3">
-                        <a class="nav-link" href="#">Courses</a>
-                      </li>
-                      <li class="nav-item px-3">
-                        <a class="nav-link" href="#">Deals</a>
-                      </li>
-                      <li class="nav-item px-3">
-                        <a class="nav-link" href="#">Success</a>
-                      </li>
-                      <li class="nav-item px-3">
-                        <a class="nav-link" href="#">About</a>
-                      </li>
-                    </ul>
-                    <button type="button" class="btn btn-outline-primary">Register</button>
-                  </div>
-            </div>
-          </nav>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light py-3">
+                <div class="container-fluid">
+                  <a class="navbar-brand h1" href="#">E-learning</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+        
+                    <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                          <li class="nav-item px-3">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Courses</a>
+                          </li>
+                          <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Deals</a>
+                          </li>
+                          <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Success</a>
+                          </li>
+                          <li class="nav-item px-3">
+                            <a class="nav-link" href="#">About</a>
+                          </li>
+                        </ul>
+                        <button type="button" class="btn btn-outline-primary">Register</button>
+                      </div>
+                </div>
+              </nav>
+        </header>  
         <!---------- Navbar End --------->
+
+        <!-------- Slider Section Start -------->
+        <section class="mt-4">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner text-center">
+
+                    <!-------- Single Slider 1 Start  ------->
+                  <div class="carousel-item active border rounded  py-5 slider-image" style="background-image: linear-gradient(90deg, rgba(4,4,4,0.7287114674971551) 100%, rgba(1,1,17,0.8015405991498161) 100%), url('images/cover/cover-1.png');">
+                    <div class="text-center py-5">
+                        <h1 class="fw-bold fs-1 lh-base m-auto text-white">Get Started Digital <br> Learning</h1>
+                        <p class="py-3 m-auto text-white-50">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+                        <button type="button" class="btn btn-info  text-light fw-bold">Get Started</button>
+                    </div>                    
+                  </div>
+                  <!-------- Single Slider 1 End  ------->
+
+                  <!-------- Single Slider 2 Start  ------->
+                  <div class="carousel-item border rounded py-5 slider-image" style="background-image: linear-gradient(90deg, rgba(4,4,4,0.7287114674971551) 100%, rgba(1,1,17,0.8015405991498161) 100%), url('images/cover/cover-2.jpg');">
+                    <div class="text-center py-5">
+                        <h1 class="fw-bold fs-1 lh-base m-auto text-white">Get Started Digital <br> Learning</h1>
+                        <p class="py-3 m-auto text-white-50">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+                        <button type="button" class="btn btn-info  text-light fw-bold">Get Started</button>
+                    </div>
+                  </div>
+                  <!-------- Single Slider 2 End  ------->
+
+                  <!-------- Single Slider 3 Start  ------->
+                  <div class="carousel-item border rounded py-5 slider-image" style="background-image: linear-gradient(90deg, rgba(4,4,4,0.7287114674971551) 100%, rgba(1,1,17,0.8015405991498161) 100%), url('images/cover/cover-3.jpg');">
+                    <div class="text-center py-5">
+                        <h1 class="fw-bold fs-1 lh-base m-auto text-white">Get Started Digital <br> Learning</h1>
+                        <p class="py-3 m-auto text-white-50">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+                        <button type="button" class="btn btn-info  text-light fw-bold">Get Started</button>
+                    </div>
+                  </div>
+                  <!-------- Single Slider 3 End  ------->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <!-------- Slider Section End -------->
 
     </section>
     <script src="js/bootstrap.min.js"></script>
