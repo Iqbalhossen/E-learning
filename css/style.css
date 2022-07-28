@@ -1,3 +1,95 @@
+a{
+    text-decoration: none;
+}
+/* Slider Css */
 .slider-image{
     background-size: cover !important;
+    padding: 100px 0 !important;
+    position: relative;
 }
+.slider-image h1{
+    width: 45%;
+}
+.slider-image p{
+    width: 50%;
+}
+
+/* Course Css */
+.course h1{
+    width: 45%;
+}
+.course p{
+    width: 50%;
+}
+
+/* Students Css */
+.students h1{
+    width: 45%;
+}
+.students p{
+    width:45%;
+}
+
+@media (max-width: 767px) { 
+    /* Slider Css */
+    .slider-image{
+        background-size:cover !important;
+        position: relative;
+        background-repeat: no-repeat;
+        padding: 0 0 !important;
+        
+    }
+    .slider-image h1{
+        width: 60%;
+    }
+    .slider-image p{
+        width: 70%;
+    }
+
+    /* Course Css */
+    .course img{
+        width: 100% !important;
+    }
+
+    .course h1{
+        width: 100%;
+    }
+    .course p{
+        width: 100%;
+    }
+
+    /* Student Css */
+    .students h1{
+        width: 100%;
+    }
+    .students p{
+        width:100%;
+    }
+ }
+
+ @media (min-width: 768px) and (max-width: 991px) { 
+    /* Slider Css */
+    .slider-image h1{
+        width: 50%;
+    }
+    .slider-image p{
+        width: 70%;
+    }
+
+    /* Course Css */
+    .course h1{
+        width: 100%;
+    }
+    .course p{
+        width: 80%;
+        
+    }
+
+    /* Student Css */
+    .students h1{
+        width: 100%;
+    }
+    .students p{
+        width:80%;
+    }
+ }
